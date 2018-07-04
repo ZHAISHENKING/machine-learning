@@ -1,0 +1,17 @@
+x_train = np.array([['male', 'low'],
+                  ['female', 'low'],
+                  ['female', 'middle'],
+                  ['male', 'low'],
+                  ['female', 'high'],
+                  ['male', 'low'],
+                  ['female', 'low'],
+                  ['female', 'high'],
+                  ['male', 'low'],
+                  ['male', 'high']])
+
+x_test = np.array([['male', 'low'],
+                  ['male', 'low'],
+                  ['female', 'middle'],
+                  ['female', 'low'],
+                  ['female', 'high']])
+x_train[:,0]
